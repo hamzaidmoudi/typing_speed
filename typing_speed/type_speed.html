@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Typing Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="topbar">
+        <h1 class="type">Dactyloghraphie</h1>
+    </div>
+    <div class="text"></div>
+    <textarea id="text-area" name="textarea" cols="50" rows="10" placeholder="Recopiez le texte en haut. le chrono démarre avec la saisie."></textarea>
+    <div id="watch">
+        00:00:00
+    </div>
+    <button class="reset" onclick="resetTimer()" ondblclick="updateText()"> redémarrer</button>
+</body>
+<script src="script.js"></script>
+</html>
